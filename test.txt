@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+  <meta charset="utf-8">
+    <title>main</title>
+  </head>
+    <body>
+      <center><h1>Кулинарный сайт</h1></center>
+      <p> Делитесь своими рецептами! </p>
+    </body>
+</html>
