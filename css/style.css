@@ -1,0 +1,382 @@
+
+
+body {
+    font-family: Montserrat, Arial, sans-serif;
+}
+
+.container_for_body{
+    position: relative;
+    margin: 0 auto;
+    max-width: 1200px;
+    overflow: hidden;
+}
+
+/*переделать в popup*/
+.popUpWind{
+    position: absolute;
+    display: none;
+    padding: 60px;
+    z-index: 3;
+    background: #FFFFFF;
+    box-shadow: 0 20px 500px rgba(34, 39, 47, 0.7);
+    border-radius: 24px;
+    overflow: hidden;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+}
+
+footer {
+    min-height: 100px;
+    background: #FBF9F4;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.text {
+    font-size: 18px;
+    line-height: 32px;
+    color: #4A525A;
+    text-decoration: none;
+}
+
+.container_for_header {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 99px;
+    height: 29px;
+}
+
+.menu_list {
+    display: flex;
+    justify-content: space-between;
+    width: 344px;
+    height: 22px;
+}
+
+.menu_item {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #9196A1;
+    list-style-type: none;
+}
+
+.menu_item--active {
+    font-weight: 600;
+    color: #3A3C41;
+}
+
+.greeting {
+
+    width: 688px;
+    height: 176px;
+
+    font-style: normal;
+    font-weight: bold;
+}
+
+.description {
+    position: absolute;
+    width: 566.86px;
+    height: 56px;
+    left: 120px;
+    top: 403px;
+
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+
+    color: #4A525A;
+}
+
+.btn_container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.button--add_recipe {
+
+    width: 278px;
+    background: #FDB100;
+    margin-right: 24px;
+}
+
+.button {
+    display: inline-flex;
+    width: 216px;
+    height: 60px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    border: 1px solid #FDB100;
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+/*line-height - величина пространства между строками*/
+.headline {
+    width: 811px;
+    height: 62px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 62px;
+}
+
+.container_rectangle {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 157px;
+    margin-top: 42px;
+}
+
+.rectangle {
+    width: 278px;
+    height: 271px;
+    background: #FFFFFF;
+    box-shadow: 0px 16px 72px rgba(34, 39, 47, 0.05);
+    border-radius: 24px;
+}
+
+.recipe_container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.logo_ent {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: auto;
+}
+
+
+.bt {
+    width: 60px;
+    height: 22px;
+    cursor: pointer;
+    z-index: 2;
+
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #FDB100;
+
+    border: none;
+    outline: none
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    width: 38px;
+    height: 38px;
+
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: #FDB100;
+}
+
+.picture {
+    position: absolute;
+
+    left: 838px;
+    top: 0px;
+    z-index: 1;
+    width: 602px;
+    height: 800px;
+
+    border-radius: 0px 0px 0px 200px;
+}
+
+.rectangle--small {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background: #FFEFCC;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.body_header {
+    display: flex;
+    flex-direction: column;
+    min-height: 800px;
+    background-repeat: no-repeat;
+}
+
+.image_main {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.header {
+    position: relative;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.smile {
+    background: #FDB100;
+    padding: 15px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.search {
+    height: 50px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 8px 42px rgba(34, 39, 47, 0.04);
+    border-radius: 16px;
+    margin-right: 16px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.counters {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30px;
+}
+
+.like_time {
+    position: absolute;
+    display: flex;
+    right: 0;
+}
+
+/*main {
+    margin: 0 120px;
+}
+
+header {
+    margin: 0 0 0 120px;
+}*/
+
+.end {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+
+.bt--form {
+    color: #070500;
+    opacity: .5;
+}
+
+.bt--form:hover {
+    opacity: 1;
+}
+
+.indent {
+    margin-right: 9px;
+}
+
+.word {
+    position: absolute;
+}
+
+.smile_all {
+    margin-top: 20px;
+    margin-bottom: 32px;
+}
+
+.text--pyramid {
+    text-align: center;
+}
+
+.search-recipes {
+    margin-top: 150px;
+    margin-bottom: 106px;
+}
+
+.product_picture {
+    margin-right: 73px;
+}
+
+#label {
+    cursor: pointer;
+}
+
+.text--big {
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 88px;
+}
+
+.text--medium {
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 62px;
+}
+
+.center--search-text {
+    margin-bottom: 64px;
+}
+
+.text_input {
+    margin-left: 158px;
+}
+
+.bt-container-form {
+    display: flex;
+    justify-content: center;
+}
+
+.text_form {
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+    .container-rectangle{
+        flex-wrap: wrap;
+    }
+    /*img{
+        max-width: 100%;
+        height: auto;
+        width: auto\9;
+    }*/
+
+}
+
+@media screen and (max-width: 1140px) { div.container-body {width: 1024px;} }
+@media screen and (max-width: 992px) { div.container-body {width: 970px;} }
+@media screen and (max-width: 1280px) {
+    .container-body{
+        font-size: 15px;
+        width: 800px;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+        width: auto;
+    }
+}

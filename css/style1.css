@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+  background: #E5E5E5;
+  font-family: 'Montserrat';
+  font-style: normal;
+}
+.navbar_logo {
+  /*position: absolute;
+  width: 99px;
+  height: 29px;
+  top: 40.6px;*/
+
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FDB100;
+  text-decoration: none;
+}
+.menu_main{
+  list-style: none;
+}
+
+.button__enter{
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+text-decoration: none;
+/* identical to box height */
+
+color: #FDB100;
+}
+
+.item{
+  /*position: absolute;
+  width: 82px;
+  height: 22px;
+  left: 236px;
+  top: 48px;
+  text-decoration: none;*/
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #9196A1;
+  text-decoration: none;
+}
+
+.item--active{
+  /*position: absolute;
+  width: 76px;
+  height: 22px;
+  left: 120px;
+  top: 48px;
+  text-decoration: none;*/
+
+  font-weight: 600;
+  color: #3A3C41;
+}
+
+.img1{
+  /*position: absolute;
+  width: 602px;
+  height: 800px;
+  left: 950px;
+  top: 0px;*/
+
+  background: #f0f0f0;
+  border-radius: 0px 0px 0px 200px;
+}
+.caption {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 88px;
+
+  color: #25292D;
+}
+.caption1{
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 62px;
+
+  color: #25292D;
+}
+.caption3{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+
+/* identical to box height, or 125% */
+
+  color: #25292D;
+}
+
+.text{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+
+  color: #4A525A;
+}
+
+.btn__first{
+  display: block;
+  padding: 15px 35px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  background: #FDB100;
+  border-radius: 16px;
+  text-decoration: none;
+/* identical to box height, or 156% */
+
+color: #FFFFFF;
+}
+
+.btn__second {
+  display: block;
+  padding: 15px 35px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  border: 1px solid #FDB100;
+  border-radius: 16px;
+  text-decoration: none;
+  color: #FDB100;
+}
+
+.card{
+  background: #FFFFFF;
+  box-shadow: 0px 16px 72px rgba(34, 39, 47, 0.05);
+  border-radius: 24px;
+}
+.ic{
+background: #F29E1F;
+}
+.ic_menu{
+  background: #FFEFCC;
+  border-radius: 12px;
+}
+
+.ic_yum{
+  border-radius: 16px;
+  background: #FDB100;
+}
+
+.search{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: capitalize;
+
+  color: rgba(37, 41, 45, 0.5);
+    /*background: #FFFFFF;*/
+  box-shadow: 0px 8px 42px rgba(34, 39, 47, 0.04);
+  border-radius: 16px;
+}
+.btn__search{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #FFFFFF;
+  background: #FDB100;
+  border-radius: 16px;
+}
+.text1{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+
+/* identical to box height, or 112% */
+  display: flex;
+  align-items: center;
+
+  color: #808080;
+}
+
+footer{
+  background: #FBF9F4;
+}
+.textfooter{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #4A525A;
+}
+.textlikes{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+
+  /* identical to box height, or 175% */
+
+  color: #25292D;
+}
+
+
